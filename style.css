@@ -1,52 +1,21 @@
-@keyframes gradient-animation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
 }
 
-.icon-square {
-  width: 3rem;
-  height: 3rem;
-  border-radius: 0.75rem;
+.text-body-secondary {
+  --bs-text-opacity: 1;
+  color: var(--bs-secondary-color) !important;
 }
 
-.profile-img {
-  height: 100px;
-  border-radius: 50%;
+.me-3 {
+  margin-right: 1rem !important;
 }
 
-.background-footer {
-  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
-  background-size: 180% 180%;
-  animation: gradient-animation 18s ease infinite;
-  padding-top: 5;
+.flex-shrink-0 {
+  flex-shrink: 0 !important;
 }
 
-.backgroud-heading {
-  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
-  background-size: 180% 180%;
-  animation: gradient-animation 18s ease infinite;
-  padding-top: 5;
-}
-
-.dog-img {
-  border-radius: 100%;
-  width: 100px;
-}
-
-.row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.container {
-  height: 30;
-  width: 150;
+body {
+  background-color: lightblue;
 }
